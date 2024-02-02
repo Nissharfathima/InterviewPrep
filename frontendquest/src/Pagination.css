@@ -1,0 +1,20 @@
+.pagination li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.pagination li.active {
+    color: blue;
+    text-decoration: underline;
+}
+
+.pagination {
+  
+    display: flex;
+    gap: 5px;
+}
+
+.paginationContainer {
+    display: flex;
+
+}
